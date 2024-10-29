@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased bg-zinc-900 text-zinc-300 font-body;
+  }
+}
+
+.custom-mask {
+  mask-image: linear-gradient(225deg, transparent, transparent 10px, black 10px);
+}
